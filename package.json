@@ -1,0 +1,13 @@
+{
+  "name": "xui",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "docs",
+    "packages/*"
+  ],
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
