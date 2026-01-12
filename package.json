@@ -9,5 +9,6 @@
   "scripts": {
   },
   "devDependencies": {
+    "@open-cloud-initative/xui-tools": "*"
   }
 }
