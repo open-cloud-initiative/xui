@@ -1,2 +1,2 @@
-import eslintConfig from '@open-cloud-initative/xui-tools/eslint.config.mjs'
+import eslintConfig from '@open-cloud-initiative/xui-utils/eslint.config.mjs'
 export default eslintConfig

@@ -1,2 +1,3 @@
-import config from '@open-cloud-initative/xui-tools/prettier.config.mjs'
+import config from '@open-cloud-initiative/xui-utils/prettier.config.mjs'
+
 export default config
