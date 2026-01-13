@@ -1,71 +1,35 @@
 {
-    "name": "@open-cloud-initative/xui-editor",
-    "version": "0.0.1",
-    "description": "X UI Tools",
-    "type": "module",
-    "publishConfig": {
-        "access": "public"
-    },
-    "main": "./dist/index.cjs",
-    "module": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "import": "./dist/index.js",
-            "require": "./dist/index.cjs"
-        }
-    },
-    "files": [
-        "dist",
-        "package.json",
-        "README.md"
-    ],
-    "scripts": {
-        "clean": "rm -rf node_modules"
-    },
-    "peerDependencies": {
-        "@types/react": "*",
-        "@types/react-dom": "*",
-        "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
-        "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
-    },
-    "peerDependenciesMeta": {
-        "@types/react": {
-            "optional": true
-        },
-        "@types/react-dom": {
-            "optional": true
-        }
-    },
-    "dependencies": {
-        "@floating-ui/react": "^0.27.4",
-        "@open-cloud-initative/xui-tools": "*",
-        "@tiptap/core": "^3.15.3",
-        "@tiptap/extension-code-block-lowlight": "^3.15.3",
-        "@tiptap/extension-color": "^3.15.3",
-        "@tiptap/extension-floating-menu": "^3.15.3",
-        "@tiptap/extension-heading": "^3.15.3",
-        "@tiptap/extension-image": "^3.15.3",
-        "@tiptap/extension-link": "^3.15.3",
-        "@tiptap/extension-list": "^3.15.3",
-        "@tiptap/extension-placeholder": "^3.15.3",
-        "@tiptap/extension-subscript": "^3.15.3",
-        "@tiptap/extension-superscript": "^3.15.3",
-        "@tiptap/extension-table": "^3.15.3",
-        "@tiptap/extension-text-align": "^3.15.3",
-        "@tiptap/extension-text-style": "^3.15.3",
-        "@tiptap/extension-typography": "^3.15.3",
-        "@tiptap/extension-underline": "^3.15.3",
-        "@tiptap/markdown": "^3.15.3",
-        "@tiptap/pm": "^3.15.3",
-        "@tiptap/react": "^3.15.3",
-        "@tiptap/starter-kit": "^3.15.3",
-        "@tiptap/suggestion": "^3.15.3",
-        "lucide-react": "^0.562.0"
-    },
-    "devDependencies": {
-        "tsup": "^8.3.6",
-        "typescript": "^5.7.3"
-    }
+  "name": "@open-cloud-initiative/xui-editor",
+  "description": "The Editor component is a powerful and flexible text editor that allows you to create and edit rich text content.",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@floating-ui/dom": "^1.7.4",
+    "@open-cloud-initiative/xui-shadcn-ui": "*",
+    "@tiptap/core": "^3.6.6",
+    "@tiptap/extension-code-block-lowlight": "^3.6.6",
+    "@tiptap/extension-list": "^3.6.6",
+    "@tiptap/extension-subscript": "^3.6.6",
+    "@tiptap/extension-superscript": "^3.6.6",
+    "@tiptap/extension-table": "^3.6.6",
+    "@tiptap/extension-text-style": "^3.6.6",
+    "@tiptap/extension-typography": "^3.6.6",
+    "@tiptap/extensions": "^3.6.6",
+    "@tiptap/pm": "^3.6.6",
+    "@tiptap/react": "^3.6.6",
+    "@tiptap/starter-kit": "^3.6.6",
+    "@tiptap/suggestion": "^3.6.6",
+    "fuse.js": "^7.1.0",
+    "lowlight": "^3.3.0",
+    "lucide-react": "^0.545.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tippy.js": "^6.3.7"
+  },
+  "devDependencies": {
+    "@open-cloud-initiative/xui-utils": "*",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "typescript": "^5.9.3"
+  }
 }

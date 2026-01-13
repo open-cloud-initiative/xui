@@ -1,1 +1,5 @@
-# XUI
+# X UI
+
+## License
+
+[MIT](/LICENSE)

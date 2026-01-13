@@ -1,0 +1,13 @@
+{
+  "extends": "@open-cloud-initiative/xui-utils/tsconfig.next.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@repo/*": ["../*"],
+      "@/components/*": ["../shadcn-ui/components/*"],
+      "@/lib/*": ["../shadcn-ui/lib/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
